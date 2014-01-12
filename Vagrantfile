@@ -4,6 +4,10 @@ Vagrant.configure('2') do |config|
 
   config.vm.provision :chef_solo do |chef|
     chef.json = {
+      locale: {
+        lang: 'ja_JP.UTF-8',
+      },
+      tz: 'Asia/Tokyo',
       oh_my_zsh: {
         users: [{
           login: 'vagrant',
@@ -30,6 +34,8 @@ Vagrant.configure('2') do |config|
 
     chef.run_list = [
       'recipe[apt]',
+      'recipe[locale]',
+      'recipe[timezone]',
       'recipe[base_packages]',
       'recipe[dotfiles]',
       'recipe[oh_my_zsh]',

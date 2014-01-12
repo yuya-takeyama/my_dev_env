@@ -3,6 +3,12 @@
     "apt": {
       "locked_version": "2.3.4"
     },
+    "locale": {
+      "locked_version": "0.0.2"
+    },
+    "timezone": {
+      "locked_version": "0.0.1"
+    },
     "base_packages": {
       "locked_version": "0.1.0",
       "git": "git://github.com/yuya-takeyama/cookbook-base_packages.git",
