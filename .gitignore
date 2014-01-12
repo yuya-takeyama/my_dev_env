@@ -1,0 +1,6 @@
+*.swp
+/.bundle/
+/.chef/
+/.vagrant/
+/vendor/bundle/
+/cookbooks/
