@@ -1,0 +1,88 @@
+{
+  "sources": {
+    "apt": {
+      "locked_version": "2.3.4"
+    },
+    "base_packages": {
+      "locked_version": "0.1.0",
+      "git": "git://github.com/yuya-takeyama/cookbook-base_packages.git",
+      "ref": "a1f77151822bd5864802753efb2369d1a77a1ae4"
+    },
+    "dotfiles": {
+      "locked_version": "0.1.0",
+      "git": "git://github.com/yuya-takeyama/cookbook-dotfiles.git",
+      "ref": "738f5377ee1ed1d33082943e04d2cb9ff71ffd40"
+    },
+    "oh_my_zsh": {
+      "locked_version": "0.0.1",
+      "git": "git://github.com/shingara/oh-my-zsh-chef.git",
+      "ref": "46f89c50ce85a098a04b20e7f672be2700083ee9"
+    },
+    "ruby_build": {
+      "locked_version": "0.8.0"
+    },
+    "rbenv": {
+      "locked_version": "0.7.2",
+      "git": "git://github.com/fnichol/chef-rbenv.git",
+      "ref": "f2b53292e810dd2b43f6121f9958f5f29979dcb1"
+    },
+    "composer": {
+      "locked_version": "0.0.6",
+      "git": "git://github.com/yuya-takeyama/cookbook-composer.git",
+      "ref": "4f0da9e2529b41e225fd573ae047a65d6bd3a957"
+    },
+    "phpdev": {
+      "locked_version": "0.1.0",
+      "git": "git://github.com/yuya-takeyama/cookbook-phpdev.git",
+      "ref": "4ca72355244281b46b8ad91942b2d122ffbe7972"
+    },
+    "git": {
+      "locked_version": "2.9.0"
+    },
+    "dmg": {
+      "locked_version": "2.1.2"
+    },
+    "build-essential": {
+      "locked_version": "1.4.2"
+    },
+    "windows": {
+      "locked_version": "1.12.4"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    },
+    "powershell": {
+      "locked_version": "1.1.2"
+    },
+    "runit": {
+      "locked_version": "1.5.8"
+    },
+    "yum": {
+      "locked_version": "3.0.4"
+    },
+    "yum-epel": {
+      "locked_version": "0.2.0"
+    },
+    "java": {
+      "locked_version": "1.17.6"
+    },
+    "aws": {
+      "locked_version": "1.0.0"
+    },
+    "php": {
+      "locked_version": "1.3.10"
+    },
+    "xml": {
+      "locked_version": "1.2.0"
+    },
+    "mysql": {
+      "locked_version": "4.0.14"
+    },
+    "openssl": {
+      "locked_version": "1.1.0"
+    },
+    "iis": {
+      "locked_version": "2.0.0"
+    }
+  }
+}
